@@ -43,12 +43,12 @@ Git은 협업을 위한 버전 컨트롤 시스템(`VCS`)으로  많이 사용�
 
 내 저장소에 먼저 변경을 준 후 PR을 통해 원본에 반영하는 프로세스로 진행하게 된다.
 
-<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/fork_1.JPG">
+<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/fork_1.png">
 원본 repository에 접근하여 fork를 눌러주면
 
 
 
-<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/fork_2.JPG">
+<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/fork_2.png">
 
 이렇게 내 저장소로 fork 되었다는 것을 볼 수 있다.
 
@@ -62,7 +62,7 @@ git이라는 원격 저장소 안의 내용들을 내 PC로 가져온 후, 작�
 
 - fork로 생성한 내 레포지토리 안에 가서, code - url 카피를 해보자.
 
-<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/clone_1.jpg">
+<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/clone_1.png">
 
 ##### `git clone <url>`
 
@@ -317,7 +317,7 @@ git push main use_git
 
 4번까지의 작업을 완료한 후, 내 원격 저장소로 들어가보면 다음과 같이 변경되어 있음을 알 수 있다.
 
-<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_1.jpg">
+<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_1.png">
 
 - Compare & Pull request
 - Branches에 use_git이 생성됨.
@@ -326,13 +326,13 @@ git push main use_git
 
 ## 6. 코드리뷰, Merge Pull Reqest
 
-<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_2.jpg">
+<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_2.png">
 
 이렇게 PR을 올려주고 Pull requests에 들어가보면, PR요청이 와있음을 알 수 있다.
 
-<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_3.jpg">
+<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_3.png">
 
-<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_4.jpg">
+<img src="https://github.com/Jinujara/nalanhi/blob/main/git%20%EC%82%AC%EC%9A%A9%EB%B2%95/assets/PR_4.png">
 
 Conflict가 없다고 체크 되었으니, Merge Pull request를 통해 변경된 부분을 반영해주면 된다.
 
