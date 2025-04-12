@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.env
+venv/
+*.log
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
