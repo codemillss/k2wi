@@ -1,0 +1,19 @@
+Install nvidia driver in ubuntu
+
+# ubuntu nvidia driver install reference : https://www.joinc.co.kr/w/Linux-nvidia-driver-install
+# sudo ubuntu-drivers list
+# sudo apt update
+# sudo apt install nvidia-driver-550-server nvidia-utils-550-server # 왜인지는 모르겠지만 server 전용은 버전 오류 발생. 추측컨데 고사용 gpu에만 해당 되는 것 같음.
+
+sudo ubuntu-drivers list
+sudo apt update
+sudo ubuntu-drivers autoinstall
+
+
+Install cudaToolkit
+
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb
+sudo dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-8
+
