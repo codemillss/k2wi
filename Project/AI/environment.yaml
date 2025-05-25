@@ -1,0 +1,40 @@
+name: real_env3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - faiss-gpu
+  - scikit-learn
+  - jupyter
+  - python-dotenv
+  - filelock
+  - sentence-transformers
+  - langchain
+  - langchain-community
+  - openai
+  - chromadb
+  - easyocr
+  - pymupdf
+  - pytesseract
+  - diffusers
+  - accelerate
+  - safetensors
+  - transformers
+  - sentencepiece
+  - bitsandbytes
+  - fastapi
+  - "uvicorn[standard]"
+  - pydantic
+  
+  - pip:
+      - torch==2.6.0+cu126
+      - torchvision==0.21.0+cu126
+      - torchaudio==2.6.0+cu126
+      - --index-url https://download.pytorch.org/whl/cu126
+      - ipykernel
+
+
+
+

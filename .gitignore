@@ -11,3 +11,16 @@ venv/
 
 # System
 .DS_Store
+
+# PNG
+.png
+.jpg
+.jpeg
+
+# Data
+.csv
+
+
+#folder
+__pycache__/
+chroma_bge/
